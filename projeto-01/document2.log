@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.17)  18 AUG 2024 10:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.17)  18 AUG 2024 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -233,20 +233,140 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip58
+\bibsep=\skip59
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count288
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
+\c@tracingmulticols=\count289
+\mult@box=\box58
+\multicol@leftmargin=\dimen170
+\c@unbalance=\count290
+\c@collectmore=\count291
+\doublecol@number=\count292
+\multicoltolerance=\count293
+\multicolpretolerance=\count294
+\full@width=\dimen171
+\page@free=\dimen172
+\premulticols=\dimen173
+\postmulticols=\dimen174
+\multicolsep=\skip60
+\multicolbaselineskip=\skip61
+\partial@page=\box59
+\last@line=\box60
+\mc@boxedresult=\box61
+\maxbalancingoverflow=\dimen175
+\mult@rightbox=\box62
+\mult@grightbox=\box63
+\mult@firstbox=\box64
+\mult@gfirstbox=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\c@minrows=\count295
+\c@columnbadness=\count296
+\c@finalcolumnbadness=\count297
+\last@try=\dimen176
+\multicolovershoot=\dimen177
+\multicolundershoot=\dimen178
+\mult@nat@firstbox=\box102
+\colbreak@box=\box103
+\mc@col@check@num=\count298
+)
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/footmisc\footmisc.sty
+Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
+\FN@temptoken=\toks30
+\footnotemargin=\dimen179
+\@outputbox@depth=\dimen180
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/bigfoot\perpage.sty
+Package: perpage 2014/10/25 2.0 Reset/sort counters per page
+\c@abspage=\count299
+)
+\c@pp@a@footnote=\count300
+Package footmisc Info: Declaring symbol style bringhurst on input line 696.
+Package footmisc Info: Declaring symbol style chicago on input line 704.
+Package footmisc Info: Declaring symbol style wiley on input line 713.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 744.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
+.
+)
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count301
+)
+\csq@reset=\count302
+\csq@gtype=\count303
+\csq@glevel=\count304
+\csq@qlevel=\count305
+\csq@maxlvl=\count306
+\csq@tshold=\count307
+\csq@ltx@everypar=\toks31
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'brazil'.
+
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count288
-\l__pdf_internal_box=\box58
+\l__color_backend_stack_int=\count308
+\l__pdf_internal_box=\box104
 )
 (document2.aux
 
 LaTeX Warning: Label `fig:figura genérica' multiply defined.
-
-
-LaTeX Warning: Label `fig:figura genérica' multiply defined.
-
-
-LaTeX Warning: Label `tab:Label Table' multiply defined.
 
 
 LaTeX Warning: Label `tab:Label Table' multiply defined.
@@ -254,20 +374,20 @@ LaTeX Warning: Label `tab:Label Table' multiply defined.
 )
 \openout1 = `document2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -292,7 +412,7 @@ LaTeX Font Info:    ... okay on input line 26.
 * \footskip=30.0pt
 * \marginparwidth=44.0pt
 * \marginparsep=10.0pt
-* \columnsep=10.0pt
+* \columnsep=42.67912pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
@@ -305,50 +425,21 @@ LaTeX Font Info:    ... okay on input line 26.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
-\scratchdimen=\dimen170
-\scratchbox=\box59
-\nofMPsegments=\count290
-\nofMParguments=\count291
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count292
-\MPscratchDim=\dimen171
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count309
+\scratchdimen=\dimen181
+\scratchbox=\box105
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen182
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks33
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-))
-(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
@@ -357,76 +448,223 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 [1
 
 {C:/Users/Ivan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(document2.toc)
+(document2.toc
+
+[1])
 \tf@toc=\write3
 \openout3 = `document2.toc'.
 
 
 
-[1] (document2.lof)
+[2] (document2.lof)
 \tf@lof=\write4
 \openout4 = `document2.lof'.
 
 
 
-[2]
+[3] (intro.tex)
 
-[1]
+[1] (citacao.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
 
-[2]
-<Figuras/fig1.png, id=21, 1284.8pt x 996.72375pt>
-File: Figuras/fig1.png Graphic file (type png)
-<use Figuras/fig1.png>
-Package pdftex.def Info: Figuras/fig1.png  used on input line 88.
-(pdftex.def)             Requested size: 338.58632pt x 262.6705pt.
+ []
 
 
-[3 <./Figuras/fig1.png>]
-
-[4]
-<Figuras/fig2.png, id=31, 240.9pt x 187.45032pt>
-File: Figuras/fig2.png Graphic file (type png)
-<use Figuras/fig2.png>
-Package pdftex.def Info: Figuras/fig2.png  used on input line 113.
-(pdftex.def)             Requested size: 338.58632pt x 263.48692pt.
-
-
-[5 <./Figuras/fig2.png>]
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 149--217
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
 
 
-[7]
+[2]) [3]
 
-[8]
+[4]
+Overfull \hbox (29.59898pt too wide) in paragraph at lines 82--82
+[]\OT1/cmr/bx/n/17.28 Espa^^Xcamento do par^^Sagrafo
+ []
+
+
+Overfull \hbox (7.1356pt too wide) in paragraph at lines 89--90
+\OT1/cmr/bx/n/12 giat. Ves-ti-bu-lum et tem-por do-lor. Nul-
+ []
+
+
+Overfull \hbox (3.32309pt too wide) in paragraph at lines 95--96
+[] \OT1/cmr/m/it/12 Do-nec nisi ne-que, in-ter-dum at nunc
+ []
+
+
+Overfull \hbox (2.54434pt too wide) in paragraph at lines 95--96
+\OT1/cmr/m/it/12 dic-tum non, ves-ti-bu-lum sit amet erat. Etiam
+ []
+
+
+Overfull \hbox (9.64334pt too wide) in paragraph at lines 95--96
+\OT1/cmr/m/it/12 nec nunc non mau-ris dic-tum ve-ne-na-tis. Quis-
+ []
+
+
+Overfull \hbox (0.38326pt too wide) in paragraph at lines 95--96
+\OT1/cmr/m/it/12 que et li-bero eges-tas, fau-ci-bus enim sit amet,
+ []
+
+
+Overfull \hbox (7.35556pt too wide) in paragraph at lines 95--96
+\OT1/cmr/m/it/12 cus justo, in tin-ci-dunt au-gue con-gue et. Nunc
+ []
+
+
+
+
+Overfull \hbox (3.32309pt too wide) in paragraph at lines 104--105
+[] \OT1/cmr/m/it/12 Do-nec nisi ne-que, in-ter-dum at nunc
+ []
+
+
+Overfull \hbox (2.54434pt too wide) in paragraph at lines 104--105
+\OT1/cmr/m/it/12 dic-tum non, ves-ti-bu-lum sit amet erat. Etiam
+ []
+
+
+Overfull \hbox (9.64334pt too wide) in paragraph at lines 104--105
+\OT1/cmr/m/it/12 nec nunc non mau-ris dic-tum ve-ne-na-tis. Quis-
+ []
+
+
+Overfull \hbox (0.38326pt too wide) in paragraph at lines 104--105
+\OT1/cmr/m/it/12 que et li-bero eges-tas, fau-ci-bus enim sit amet,
+ []
+
+
+Overfull \hbox (7.35556pt too wide) in paragraph at lines 104--105
+\OT1/cmr/m/it/12 cus justo, in tin-ci-dunt au-gue con-gue et. Nunc
+ []
+
+
+Overfull \hbox (8.17528pt too wide) in paragraph at lines 106--107
+[]$[]$\OT1/cmr/m/n/12 , con-sec-
+ []
+
+
+
+[5
+
+]
+Overfull \hbox (0.58467pt too wide) in paragraph at lines 109--111
+\OT1/cmr/m/n/12 vo-lut-pat mau-ris vi-tae tor-tor fer-men-tum ves-
+ []
+
+
+
+
+
+[6]
+<Figuras/fig1.png, id=40, 1284.8pt x 996.72375pt>
+File: Figuras/fig1.png Graphic file (type png)
+<use Figuras/fig1.png>
+Package pdftex.def Info: Figuras/fig1.png  used on input line 124.
+(pdftex.def)             Requested size: 154.35553pt x 119.73857pt.
+
+
+
+
+[7 <./Figuras/fig1.png>]
+
+<Figuras/fig2.png, id=46, 240.9pt x 187.45032pt>
+File: Figuras/fig2.png Graphic file (type png)
+<use Figuras/fig2.png>
+Package pdftex.def Info: Figuras/fig2.png  used on input line 149.
+(pdftex.def)             Requested size: 154.35553pt x 120.1108pt.
+
+
+[8 <./Figuras/fig2.png>]
+
+
+Overfull \hbox (49.79498pt too wide) in paragraph at lines 161--161
+[]\OT1/cmr/bx/n/17.28 Cores dis-pon^^S^^Pveis por padr~ao
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--253
+
+ []
+
+
 
 [9]
 
+
+
 [10]
-<Figuras/fig3.png, id=53, 240.9pt x 187.45032pt>
+
+<Figuras/fig3.png, id=58, 240.9pt x 187.45032pt>
 File: Figuras/fig3.png Graphic file (type png)
 <use Figuras/fig3.png>
-Package pdftex.def Info: Figuras/fig3.png  used on input line 263.
-(pdftex.def)             Requested size: 338.58632pt x 263.48692pt.
+Package pdftex.def Info: Figuras/fig3.png  used on input line 302.
+(pdftex.def)             Requested size: 154.35553pt x 120.1108pt.
 
 
 [11 <./Figuras/fig3.png>]
+Overfull \hbox (23.0279pt too wide) in paragraph at lines 311--312
+[]\OT1/cmr/m/n/12 Site https://www.tablesgenerator.com/ 
+ []
+
+
+
+
+Overfull \hbox (6.86705pt too wide) in paragraph at lines 326--326
+[]\OT1/cmr/bx/n/17.28 Mesclar C^^Selulas de Ta-
+ []
+
+
+Overfull \hbox (23.0279pt too wide) in paragraph at lines 328--329
+[]\OT1/cmr/m/n/12 Site https://www.tablesgenerator.com/ 
+ []
+
+
 
 [12]
+Overfull \hbox (23.0279pt too wide) in paragraph at lines 348--349
+[]\OT1/cmr/m/n/12 Site https://www.tablesgenerator.com/ 
+ []
+
+
+Overfull \hbox (21.33957pt too wide) in paragraph at lines 360--361
+ [][] 
+ []
+
+
+
+
+Overfull \hbox (23.42447pt too wide) in paragraph at lines 370--371
+[]\OT1/cmr/bx/n/12 Modo ma-tem^^Satico com as f^^Sormulas
+ []
+
+
+Overfull \hbox (23.42447pt too wide) in paragraph at lines 374--375
+[]\OT1/cmr/bx/n/12 Modo ma-tem^^Satico com as f^^Sormulas
+ []
+
+
+Overfull \hbox (22.84131pt too wide) detected at line 395
+[][]
+ []
+
+
 
 [13]
 
+
+
 [14]
+
+
 
 [15]
 
-[16]
+(document2.bbl)
 
-[17] (document2.aux)
+[16] (document2.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
@@ -437,25 +675,27 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5123 strings out of 473898
- 83420 string characters out of 5736297
- 1935960 words of memory out of 5000000
- 27916 multiletter control sequences out of 15000+600000
- 565046 words of font info for 60 fonts, out of 8000000 for 9000
+ 6257 strings out of 473898
+ 98505 string characters out of 5736297
+ 1939960 words of memory out of 5000000
+ 29042 multiletter control sequences out of 15000+600000
+ 565273 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,10n,80p,814b,329s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,10n,80p,895b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Ivan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
 rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/font
-s/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
-Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on document2.pdf (20 pages, 181793 bytes).
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:
+/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmti12.pfb>
+Output written on document2.pdf (20 pages, 215947 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
+ 135 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

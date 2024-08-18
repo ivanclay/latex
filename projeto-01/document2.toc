@@ -1,14 +1,20 @@
 \babel@toc {brazil}{}\relax 
-\contentsline {section}{\numberline {1}Espaçamento do parágrafo e formatação do texto}{1}{}%
-\contentsline {section}{\numberline {2}Margens}{3}{}%
-\contentsline {section}{\numberline {3}Cores}{4}{}%
-\contentsline {section}{\numberline {4}Cores disponíveis por padrão em xcolor}{7}{}%
-\contentsline {section}{\numberline {5}Cores disponíveis com xcolor e dvipsnames}{7}{}%
-\contentsline {section}{\numberline {6}LISTAS}{10}{}%
-\contentsline {section}{\numberline {7}Inserir Figuras}{11}{}%
-\contentsline {section}{\numberline {8}Tabelas}{12}{}%
-\contentsline {section}{\numberline {9}Mesclar Células de Tabelas}{13}{}%
-\contentsline {section}{\numberline {10}Margens de Tabelas}{14}{}%
-\contentsline {section}{\numberline {11}Modo Matemático}{15}{}%
-\contentsline {subsection}{\numberline {11.1}Tradução de Comandos}{16}{}%
-\contentsline {subsection}{\numberline {11.2}Truques}{17}{}%
+\contentsline {section}{\numberline {1}Introdução}{1}{}%
+\contentsline {section}{\numberline {2}Notas de Rodapé}{1}{}%
+\contentsline {section}{\numberline {3}Citações}{2}{}%
+\contentsline {section}{\numberline {4}Multicolunas}{3}{}%
+\contentsline {section}{\numberline {5}Espaçamento do parágrafo e formatação do texto}{5}{}%
+\contentsline {section}{\numberline {6}Margens}{7}{}%
+\contentsline {section}{\numberline {7}Cores}{8}{}%
+\contentsline {section}{\numberline {8}Cores disponíveis por padrão em xcolor}{9}{}%
+\contentsline {section}{\numberline {9}Cores disponíveis com xcolor e dvipsnames}{9}{}%
+\contentsline {section}{\numberline {10}LISTAS}{11}{}%
+\contentsline {section}{\numberline {11}Inserir Figuras}{11}{}%
+\contentsline {section}{\numberline {12}Tabelas}{12}{}%
+\contentsline {section}{\numberline {13}Mesclar Células de Tabelas}{12}{}%
+\contentsline {section}{\numberline {14}Margens de Tabelas}{13}{}%
+\contentsline {section}{\numberline {15}Modo Matemático}{13}{}%
+\contentsline {subsection}{\numberline {15.1}Tradução de Comandos}{14}{}%
+\contentsline {subsection}{\numberline {15.2}Truques}{14}{}%
+\contentsline {section}{\numberline {16}Citar Bliblioteca}{15}{}%
+\contentsline {section}{Referências}{16}{}%

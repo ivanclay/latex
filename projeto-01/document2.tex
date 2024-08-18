@@ -14,7 +14,10 @@
 \usepackage{multirow} % MESCLAR LINHAS EM TABELAS
 \usepackage{tabularx} % MARGENS DAS TABELAS
 \usepackage{amsmath} % COMPLEMENTO DO MODO MATEMÁTICO
-
+\usepackage{natbib} % COMPLEMENTO PARA CITACOES
+\usepackage{multicol} % COMPLEMENTO PARA FORMATACAO MULTICOLUNA ACIMA DE 2
+\usepackage[perpage]{footmisc} %COMPLEMENTO PARA ZERAR NOTAS DE RODAPE A CADA PAGINA
+\usepackage{csquotes} % ASPAS
 
 \setlength{\parindent}{1.5cm} %ALTERA INDENTACAO DO PARAGRAFO
 \setlength{\parskip}{1cm}
@@ -23,6 +26,13 @@
 
 \renewcommand{\sin}{\mathrm{sen\hspace{0.5mm}}}
 \renewcommand{\tan}{\mathrm{tg\hspace{0.5mm}}}
+
+%PARA COLOCAR NOTAS DE RODAPE EM ROMANOS
+%\renewcommand{\thefootnote}{\roman{footnote}}
+
+\setlength{\columnsep}{15mm} %DISTANCIA ENTRE AS COLUNAS
+\setlength{\columnseprule}{0.5mm} %SEPARADOR ENTRE COLUNAS
+
 \begin{document}
 
 \title{Capa e Sumário}%TITULO
@@ -43,6 +53,32 @@
 \setcounter{page}{1} %COMECA A CONTAR AS PAGINAS
 \pagenumbering{arabic} %ALTERA ESTILO DE NUMEROS DO SUMARIO PARA ROMANOS
 
+\section{Introdução}
+\input{intro}
+
+\section{Notas de Rodapé}
+
+\enquote{Donec nisi neque}, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue. Vestibulum suscipit tincidunt eros, eget rhoncus est posuere eget.\footnote{Nota de rodapé bla bla}\footnote{Nota de rodapé ble ble}
+
+Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem\footnote[999]{Nota de rodapé ble ble}. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue. Vestibulum suscipit tincidunt eros, eget rhoncus est posuere eget.\footnote{Nota de rodapé ble ble}
+
+\section{Citações}
+\input{citacao}
+
+
+\section{Multicolunas}
+
+\begin{multicols}{3}
+	
+	Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue. Vestibulum suscipit tincidunt eros, eget rhoncus est posuere eget.
+	
+	Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue. Vestibulum suscipit tincidunt eros, eget rhoncus est posuere eget.
+	
+	Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue. Vestibulum suscipit tincidunt eros, eget rhoncus est posuere eget.
+	
+\end{multicols}
+
+\twocolumn % GERA O TEXTO EM 2 COLUNAS
 \section{Espaçamento do parágrafo e formatação do texto}
 
 
@@ -255,6 +291,9 @@ Descrição:
 \newpage
 \section{Inserir Figuras}
 
+Donec, na tabela \ref{tab:tab_original} e na figura \ref{fig:figura_generica}, nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue. Vestibulum suscipit tincidunt eros, eget rhoncus est posuere eget.
+
+
 Texto acima
 
 % TODO: \usepackage{graphicx} required
@@ -262,7 +301,7 @@ Texto acima
 	\centering
 	\includegraphics[width=0.7\linewidth]{Figuras/fig3}
 	\caption[Legenda curta]{Legenda longa}
-	\label{fig:figura genérica}
+	\label{fig:figura_generica}
 \end{figure}
 
 
@@ -274,7 +313,7 @@ Site https://www.tablesgenerator.com/
 \begin{table}[H]
 	\centering
 	\caption[legenda curta]{Legenda Longa - Caption Table}
-	\label{tab:Label Table}
+	\label{tab:tab_original}
 	\begin{tabular}{|l|l|l|}
 		\hline
 		\textbf{A1} & \textbf{A2} & \textbf{A3} \\ \hline
@@ -431,6 +470,22 @@ A = \begin{matrix}
 \begin{equation}
 	x_{12}
 \end{equation}
+
+\newpage
+\section{Citar Bliblioteca}
+Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur\cite{Martin2017-xe} quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue.
+
+Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue.
+
+Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue.
+
+%ADD BLIBLIOTECA
+\nocite{Martin2018}
+\newpage
+\addcontentsline{toc}{section}{Referências}
+\bibliographystyle{apalike}
+\bibliography{bibaula}
+
 	
 %FIM DO DOCUMENTO	
 \end{document}
