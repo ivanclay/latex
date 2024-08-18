@@ -11,13 +11,18 @@
 \usepackage[usenames, dvipsnames]{xcolor} %MAIS OPCOES DE CORES
 \usepackage{graphicx} %PARA PODER ADD FIGURAS
 \usepackage{float} % FORÇA O POSICIONAMENTO
-\usepackage{multirow}
+\usepackage{multirow} % MESCLAR LINHAS EM TABELAS
+\usepackage{tabularx} % MARGENS DAS TABELAS
+\usepackage{amsmath} % COMPLEMENTO DO MODO MATEMÁTICO
+
 
 \setlength{\parindent}{1.5cm} %ALTERA INDENTACAO DO PARAGRAFO
 \setlength{\parskip}{1cm}
 
 \definecolor{minhacor}{RGB}{85,158,131} % Define nova cor
 
+\renewcommand{\sin}{\mathrm{sen\hspace{0.5mm}}}
+\renewcommand{\tan}{\mathrm{tg\hspace{0.5mm}}}
 \begin{document}
 
 \title{Capa e Sumário}%TITULO
@@ -283,6 +288,7 @@ Site https://www.tablesgenerator.com/
 
 Site https://www.tablesgenerator.com/
 
+\renewcommand{\arraystretch}{1.5}
 \begin{table}[H]
 	\centering
 	\caption[legenda curta]{Legenda Longa - Caption Table}
@@ -294,6 +300,137 @@ Site https://www.tablesgenerator.com/
 		B3          &             &                   \\ \hline
 	\end{tabular}
 \end{table}
+
+
+
+\newpage
+\section{Margens de Tabelas}
+
+Site https://www.tablesgenerator.com/
+
+\renewcommand{\arraystretch}{1.5}
+\begin{table}[H]
+	\centering
+	\caption[legenda curta]{Legenda Longa - Caption Table}
+	\label{tab:Label Table}
+	\begin{tabularx}{0.5\textwidth}{|X|X|X|}
+		\hline
+		\centering\textbf{A1} & \multicolumn{2}{c|}{\multirow{2}{*}{\textbf{B1}}}\\ \cline{1-1}
+		A2          &  \multicolumn{2}{l|}{}          \\ \hline
+		B3          &             &                   \\ \hline
+	\end{tabularx}
+\end{table}
+
+
+
+
+
+\newpage
+\section{Modo Matemático}
+
+\textbf{Modo matemático com as fórmulas no meio do texto}
+
+A equação do 2º grau é caracterizada por um polinômio de grau 2, ou seja, um polinômio do tipo $ax^2+bx+c$, em que a, b e c são números reais. Ao resolvermos uma equação de grau 2, estamos interessados em encontrar valores para a incógnita x que torne o valor da expressão igual a 0, que são chamadas de raízes, isto é, $ax^2 + bx +c = 0$.
+
+\textbf{Modo matemático com as fórmulas destacadas na página}
+
+A fórmula de Báscara é:
+
+\begin{equation}
+	x = \frac{-b \pm \sqrt{b^2 -4ac}}{2a}
+\end{equation}
+
+Se precisar usar o símbolo de multiplicação e/ou outra raiz:
+
+\begin{equation}
+	x = \frac{-b \pm \sqrt[3]{b^2 -4\cdot a\cdot c}}{2\cdot a}
+\end{equation}
+
+\textbf{Várias fórmulas em uma linha}
+
+\begin{equation}
+	\begin{array}{cc}
+		x_1 = \dfrac{-b + \sqrt{b^2 -4ac}}{2a}, & 
+		x_2 = \dfrac{-b - \sqrt{b^2 -4ac}}{2a}
+	\end{array}
+\end{equation}
+
+
+\textbf{Modo matemático: Matrizes}
+
+\begin{equation}
+A = \begin{matrix}
+	1 & 0  & 0  \\
+	0 & 1  & 0  \\
+	0 & 0  & 1 
+   \end{matrix}
+\end{equation}
+
+\begin{equation}
+	A = \begin{bmatrix}
+		1 & 0  & 0  \\
+		0 & 1  & 0  \\
+		0 & 0  & 1 
+	\end{bmatrix}
+\end{equation}
+
+\begin{equation}
+	A = \begin{Bmatrix}
+		1 & 0  & 0  \\
+		0 & 1  & 0  \\
+		0 & 0  & 1 
+	\end{Bmatrix}
+\end{equation}
+
+\begin{equation}
+	A = \begin{vmatrix}
+		1 & 0  & 0  \\
+		0 & 1  & 0  \\
+		0 & 0  & 1 
+	\end{vmatrix}
+\end{equation}
+
+\begin{equation}
+	A = \begin{Vmatrix}
+		1 & 0  & 0  \\
+		0 & 1  & 0  \\
+		0 & 0  & 1 
+	\end{Vmatrix}
+\end{equation}
+
+\subsection[Tradução de Comandos]{Tradução de comandos}
+
+\begin{equation}
+\sin{2x}
+\end{equation}
+
+\begin{equation}
+	\tan{2x}
+\end{equation}
+
+\subsection[Truques]{Truques}
+
+\textbf{fórmula entre parênteses}
+
+\begin{equation}
+	(\frac{2a}{3b})
+\end{equation}
+
+\begin{equation}
+	\left(\frac{2a}{3b}\right)
+\end{equation}
+
+\begin{equation}
+\{2a\}
+\end{equation}
+
+\begin{equation}
+	100\%
+\end{equation}
+
+\begin{equation}
+	x_{12}
+\end{equation}
 	
 %FIM DO DOCUMENTO	
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.17)  18 AUG 2024 09:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.17)  18 AUG 2024 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -144,10 +144,99 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@dima=\skip52
 \bigstrutjot=\dimen153
 )
+(C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+
+(C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen154
+\ar@mcellbox=\box54
+\extrarowheight=\dimen155
+\NC@list=\toks23
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box55
+)
+\TX@col@width=\dimen156
+\TX@old@table=\dimen157
+\TX@old@col=\dimen158
+\TX@target=\dimen159
+\TX@delta=\dimen160
+\TX@cols=\count275
+\TX@ftn=\toks24
+)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip55
+
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen161
+))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen162
+)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count276
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count277
+\leftroot@=\count278
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count279
+\DOTSCASE@=\count280
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen163
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count281
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count282
+\dotsspace@=\muskip17
+\c@parentequation=\count283
+\dspbrk@lvl=\count284
+\tag@help=\toks26
+\row@=\count285
+\column@=\count286
+\maxfields@=\count287
+\andhelp@=\toks27
+\eqnshift@=\dimen164
+\alignsep@=\dimen165
+\tagshift@=\dimen166
+\tagwidth@=\dimen167
+\totwidth@=\dimen168
+\lineht@=\dimen169
+\@envbody=\toks28
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count275
-\l__pdf_internal_box=\box54
+\l__color_backend_stack_int=\count288
+\l__pdf_internal_box=\box58
 )
 (document2.aux
 
@@ -159,23 +248,26 @@ LaTeX Warning: Label `fig:figura genérica' multiply defined.
 
 LaTeX Warning: Label `tab:Label Table' multiply defined.
 
+
+LaTeX Warning: Label `tab:Label Table' multiply defined.
+
 )
 \openout1 = `document2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -213,30 +305,54 @@ LaTeX Font Info:    ... okay on input line 21.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen154
-\scratchbox=\box55
-\nofMPsegments=\count277
-\nofMParguments=\count278
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen155
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count289
+\scratchdimen=\dimen170
+\scratchbox=\box59
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen171
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks31
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 26.
-
 
 [1
 
@@ -247,14 +363,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 
-[1] (document2.lof
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
-)
+[1] (document2.lof)
 \tf@lof=\write4
 \openout4 = `document2.lof'.
 
@@ -268,7 +377,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <Figuras/fig1.png, id=21, 1284.8pt x 996.72375pt>
 File: Figuras/fig1.png Graphic file (type png)
 <use Figuras/fig1.png>
-Package pdftex.def Info: Figuras/fig1.png  used on input line 83.
+Package pdftex.def Info: Figuras/fig1.png  used on input line 88.
 (pdftex.def)             Requested size: 338.58632pt x 262.6705pt.
 
 
@@ -278,14 +387,14 @@ Package pdftex.def Info: Figuras/fig1.png  used on input line 83.
 <Figuras/fig2.png, id=31, 240.9pt x 187.45032pt>
 File: Figuras/fig2.png Graphic file (type png)
 <use Figuras/fig2.png>
-Package pdftex.def Info: Figuras/fig2.png  used on input line 108.
+Package pdftex.def Info: Figuras/fig2.png  used on input line 113.
 (pdftex.def)             Requested size: 338.58632pt x 263.48692pt.
 
 
 [5 <./Figuras/fig2.png>]
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 144--212
+Underfull \hbox (badness 10000) in paragraph at lines 149--217
 
  []
 
@@ -301,7 +410,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--212
 <Figuras/fig3.png, id=53, 240.9pt x 187.45032pt>
 File: Figuras/fig3.png Graphic file (type png)
 <use Figuras/fig3.png>
-Package pdftex.def Info: Figuras/fig3.png  used on input line 258.
+Package pdftex.def Info: Figuras/fig3.png  used on input line 263.
 (pdftex.def)             Requested size: 338.58632pt x 263.48692pt.
 
 
@@ -309,7 +418,15 @@ Package pdftex.def Info: Figuras/fig3.png  used on input line 258.
 
 [12]
 
-[13] (document2.aux)
+[13]
+
+[14]
+
+[15]
+
+[16]
+
+[17] (document2.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
@@ -320,21 +437,25 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3768 strings out of 473898
- 62297 string characters out of 5736297
- 1932960 words of memory out of 5000000
- 26612 multiletter control sequences out of 15000+600000
- 563614 words of font info for 54 fonts, out of 8000000 for 9000
+ 5123 strings out of 473898
+ 83420 string characters out of 5736297
+ 1935960 words of memory out of 5000000
+ 27916 multiletter control sequences out of 15000+600000
+ 565046 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,80p,814b,299s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 59i,10n,80p,814b,329s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Ivan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
-rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmti12.pfb>
-Output written on document2.pdf (16 pages, 127570 bytes).
+rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
+Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on document2.pdf (20 pages, 181793 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
