@@ -18,6 +18,9 @@
 \usepackage{multicol} % COMPLEMENTO PARA FORMATACAO MULTICOLUNA ACIMA DE 2
 \usepackage[perpage]{footmisc} %COMPLEMENTO PARA ZERAR NOTAS DE RODAPE A CADA PAGINA
 \usepackage{csquotes} % ASPAS
+\usepackage{draftwatermark} % MARCA D'AGUA
+\usepackage{transparent} %TRANSPARENCIA
+\usepackage{lipsum} %GERADOR DE LOREN IPSUM
 
 \setlength{\parindent}{1.5cm} %ALTERA INDENTACAO DO PARAGRAFO
 \setlength{\parskip}{1cm}
@@ -34,6 +37,7 @@
 \setlength{\columnseprule}{0.5mm} %SEPARADOR ENTRE COLUNAS
 
 \begin{document}
+\SetWatermarkText{}
 
 \title{Capa e Sumário}%TITULO
 \author{Ivan Moura}%AUTOR
@@ -53,10 +57,17 @@
 \setcounter{page}{1} %COMECA A CONTAR AS PAGINAS
 \pagenumbering{arabic} %ALTERA ESTILO DE NUMEROS DO SUMARIO PARA ROMANOS
 
+\SetWatermarkText{\transparent{0.2}\includegraphics[width=0.7\linewidth]{Figuras/fig1.png}}
 \section{Introdução}
 \input{intro}
 
+\section{Modelos ABNT}
+\input{abnt-modelos}\\
+\lipsum[1-3]
+
 \section{Notas de Rodapé}
+
+\lipsum[2]
 
 \enquote{Donec nisi neque}, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue. Vestibulum suscipit tincidunt eros, eget rhoncus est posuere eget.\footnote{Nota de rodapé bla bla}\footnote{Nota de rodapé ble ble}
 
