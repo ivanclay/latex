@@ -1,0 +1,8 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {section}{\numberline {1}Espaçamento do parágrafo e formatação do texto}{1}{}%
+\contentsline {section}{\numberline {2}Margens}{3}{}%
+\contentsline {section}{\numberline {3}Cores}{4}{}%
+\contentsline {section}{\numberline {4}Cores disponíveis por padrão em xcolor}{7}{}%
+\contentsline {section}{\numberline {5}Cores disponíveis com xcolor e dvipsnames}{7}{}%
+\contentsline {section}{\numberline {6}LISTAS}{10}{}%
+\contentsline {section}{\numberline {7}Inserir Figuras}{11}{}%

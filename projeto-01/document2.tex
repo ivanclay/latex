@@ -9,6 +9,8 @@
 \usepackage[a4paper, left=2.5cm, right=1.5cm, top=3cm, bottom=2cm]{geometry} %MARGEM GLOBAL DO DOCUMENTO
 %\usepackage{xcolor} %MODIFICA CORES
 \usepackage[usenames, dvipsnames]{xcolor} %MAIS OPCOES DE CORES
+\usepackage{graphicx} %PARA PODER ADD FIGURAS
+\usepackage{float} % FORÇA O POSICIONAMENTO
 
 \setlength{\parindent}{1.5cm} %ALTERA INDENTACAO DO PARAGRAFO
 \setlength{\parskip}{1cm}
@@ -16,6 +18,24 @@
 \definecolor{minhacor}{RGB}{85,158,131} % Define nova cor
 
 \begin{document}
+
+\title{Capa e Sumário}%TITULO
+\author{Ivan Moura}%AUTOR
+\date{Agosto 2024}%DATA
+\maketitle %INFORMA AO DUCUMENTO QUE DEVE MOSTRAR TITULO, AUTOR E DATA
+\thispagestyle{empty} %OCULTA NUMERACAO DA PAGINA
+\newpage
+
+\setcounter{page}{1} %COMECA A CONTAR AS PAGINAS
+\pagenumbering{Roman} %ALTERA ESTILO DE NUMEROS DO SUMARIO PARA ROMANOS
+\tableofcontents %ADICIONA UM SUMARIO
+\newpage
+
+\listoffigures %LISTA DE FIGURAS
+\newpage
+
+\setcounter{page}{1} %COMECA A CONTAR AS PAGINAS
+\pagenumbering{arabic} %ALTERA ESTILO DE NUMEROS DO SUMARIO PARA ROMANOS
 
 \section{Espaçamento do parágrafo e formatação do texto}
 
@@ -55,6 +75,13 @@ Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed sceler
 
 Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue. Vestibulum suscipit tincidunt eros, eget rhoncus est posuere eget.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figuras/fig1}
+	\caption[Legenda curta]{Legenda longa}
+	\label{fig:figura genérica}
+\end{figure}
+
 Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue. Vestibulum suscipit tincidunt eros, eget rhoncus est posuere eget.
 
 Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue. Vestibulum suscipit tincidunt eros, eget rhoncus est posuere eget.
@@ -72,10 +99,21 @@ Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed sceler
 
 Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue. Vestibulum suscipit tincidunt eros, eget rhoncus est posuere eget.
 
-Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue. Vestibulum suscipit tincidunt eros, eget rhoncus est posuere eget.
+% TODO: \usepackage{graphicx} required
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figuras/fig2}
+	\caption[Legenda curta]{Legenda longa}
+	\label{fig:figura genérica}
+\end{figure}
+
 
 Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue. Vestibulum suscipit tincidunt eros, eget rhoncus est posuere eget.
 
+Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed scelerisque lorem. Pellentesque volutpat mauris vitae tortor fermentum vestibulum. Mauris eu cursus nunc. Etiam leo leo, condimentum quis convallis vel, efficitur eu orci. Sed viverra turpis eu nulla semper porta. Aliquam condimentum turpis sed nulla placerat sagittis. Curabitur pulvinar consequat nisi in blandit. Sed ex enim, hendrerit a dictum non, vestibulum sit amet erat. Etiam nec nunc non mauris dictum venenatis. Quisque et libero egestas, faucibus enim sit amet, malesuada est. Quisque quis aliquet enim, quis consectetur quam. Cras suscipit rhoncus justo, in tincidunt augue congue et. Nunc mollis ligula quis varius congue. Vestibulum suscipit tincidunt eros, eget rhoncus est posuere eget.
+
+\newpage
+\pagecolor{white}
 \section{Cores disponíveis por padrão em xcolor}
 
 \textcolor{black}{black}\\
@@ -168,5 +206,56 @@ Donec nisi neque, interdum at nunc eu, consectetur iaculis est. Proin sed sceler
 \textcolor{Yellow}{Yellow}\\
 \textcolor{YellowGreen}{YellowGreen}\\
 \textcolor{YellowOrange}{YellowOrange}\\
+
+
+\newpage
+\section{LISTAS}	
+
+Lista não ordenada:
+
+\begin{itemize}
+	\item conteúdo...
+	\item conteúdo...
+	\item conteúdo...
+\end{itemize}
+
+Lista ordenada:
+\begin{enumerate}
+	\item conteúdo...
+	\item conteúdo...
+	\item conteúdo...
+\end{enumerate}
+
+Lista com subitem:
+\begin{enumerate}
+	\item conteúdo...
+	\item conteúdo...
+	\begin{enumerate}
+		\item conteúdo...
+		\item conteúdo...
+		\item conteúdo...
+	\end{enumerate}
+\end{enumerate}
+
+Descrição:
+\begin{description}
+	\item[Primeiro] conteúdo...
+	\item[Segundo] conteúdo...
+	\item[Terceiro] conteúdo...
+\end{description}
+
+\newpage
+\section{Inserir Figuras}
+
+Texto acima
+
+% TODO: \usepackage{graphicx} required
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figuras/fig3}
+	\caption[Legenda curta]{Legenda longa}
+	\label{fig:figura genérica}
+\end{figure}
 	
+%FIM DO DOCUMENTO	
 \end{document}
